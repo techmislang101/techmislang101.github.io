@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Raven Ryan Mislang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: url('nebula002.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            color: #ffffff;
+            text-shadow: 2px 2px 6px #000;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 900px;
+            width: 100%;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            box-shadow: 0 0 25px rgba(255,255,255,0.15);
+            display: flex;
+            gap: 30px;
+        }
+
+        .card img {
+            width: 260px;
+            height: 260px;
+            border-radius: 20px;
+            object-fit: cover;
+            box-shadow: 0 0 15px rgba(0,0,0,0.6);
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 20px;
+            border: 2px solid rgba(255,255,255,0.7);
+            border-radius: 12px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: rgba(255,255,255,0.25);
+            border-color: #ffffff;
+        }
+
+        @media (max-width: 750px) {
+            .card {
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+
+            .card img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="raven.png" alt="My Photo">
+        <div class="text">
+            <h1>About Me</h1>
+            <p>
+                Hello! I’m <strong>Raven Ryan Mislang</strong>, a dedicated Criminology student who’s passionate about
+                learning, discipline, and self-improvement. I recently graduated from <strong>Mababanaba National High School</strong>
+                under the <strong>STEM (Science, Technology, Engineering, and Mathematics)</strong> strand.
+            </p>
+            <p>
+                During my high school years, I actively joined several organizations such as <strong>Barkada Kontra Droga (BKD)</strong>, 
+                <strong>Scouting</strong>, and <strong>First Aid Volunteering</strong>—all of which helped shape my values of leadership, responsibility, 
+                and community service.
+            </p>
+            <p>
+                Outside academics, I enjoy playing <strong>Call of Duty</strong>, practicing <strong>calisthenics</strong>, and helping at home by 
+                doing various <strong>house chores</strong>. These hobbies keep me balanced, active, and always driven to grow.
+            </p>
+
+            <a href="index.html" class="back-btn">⟵ Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
